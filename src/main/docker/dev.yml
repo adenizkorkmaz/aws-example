@@ -1,0 +1,10 @@
+hackday-dev-postgresql:
+  container_name: hackday-dev-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/hackday/dev-postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=hackday
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"

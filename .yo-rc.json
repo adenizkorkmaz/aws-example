@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "hackday",
+    "packageName": "com.n11.hacday",
+    "packageFolder": "com/n11/hacday",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "d61253048a796f36df9be242194737c671b8a275",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
